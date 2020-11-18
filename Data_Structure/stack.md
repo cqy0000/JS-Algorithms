@@ -151,7 +151,7 @@ tips: js原生toString和parseInt都可以用来转换进制, parseInt限制较�
 [LeetCode 20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
 
 ```js
-function isVaild(s) {
+function isValid(s) {
     let stack = new Stack();
 
     for(let k of s) {
@@ -173,3 +173,7 @@ function isVaild(s) {
     return stack.isEmpty();
 }
 ```
+
+
+参考资料：
+Learning JavaScript Data Structures and Algorithms - Third Edition
